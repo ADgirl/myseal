@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+	margin: 0;
+	font: "微软雅黑";
+	font-size: 15px;
+}
+.header{
+	height: 50px;
+	width: 100%;
+	top: 20px;
+	display: inline-block;
+	position: fixed;
+	z-index: 2;
+}
+.header-choice{
+	height: 50px;
+	width: 240px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.subbtn{
+	width: 70px;
+	height: 30px;
+	border: none;
+	background-color: #808080;
+	color: white;
+}
+.body{
+	top: 90px;
+	width: 100%;
+	position: absolute;
+}
+.contains{
+	position: absolute;
+	height: 500px;
+	width: 600px;
+	left: 200px;
+	border: 1px solid #000;
+	display: inline-block;
+}
+.txt{
+	width: 150px;
+}
+
+.save{
+	left: 800px;
+	background-color:gray;
+	border: none;
+	position: relative;
+	color:white;
+}

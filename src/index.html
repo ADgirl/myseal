@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>canvas印章</title>
+		<link rel="stylesheet" type="text/css"href="css/print.css">
+		
+	</head>
+	<body>
+		<ul id="header" class="header">
+			<li id="header-content-type" class="header-choice">
+				<span>印章形状： </span>
+				<select id="sealtype">
+				<option>圆形</option>
+				<option>椭圆形 </option>
+			</select>	
+			</li>
+			<li id="header-cotent-size" class="header-choice">
+				<span>印章尺寸:</span>
+			<select id="sealsize">
+				<option>40*40mm </option>
+				<option>38*38mm</option>
+			</select>
+			</li>
+			<li id="header-content-txt" class="header-choice">
+				<span>印章正文：</span>
+				
+				<input type="text" id="txt" class="txt"></input>
+			</li>
+			<li id="header-content-moretxt" class="header-choice">
+				<span>印章附文：</span>
+				<input type="text" id="txt_more" class="txt"/>
+			</li>
+			<li class="header-choice">
+		<input type="button" value="绘制" class="subbtn" id="subbtn"/></li>
+		</ul>
+		
+		<div id="body" class="body">
+			<div id="contain" class="contains">
+				<canvas id="canvas" class="canvas"></canvas>
+			</div>
+			<input type="button" value="保存" class="save" id="save" />
+		</div>
+		<script type="text/javascript" src="js/new.js"></script>
+	</body>
+</html>
